@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional custom styles */
+
+@layer base {
+  body {
+    @apply font-sans text-gray-800;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-500;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-gray-700 border-gray-300 hover:bg-gray-50 focus:ring-primary-500;
+  }
+  
+  /* Property Card Styles - Enhanced for StayMoksha look */
+  .property-card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-1 border border-gray-100;
+  }
+  
+  .property-card-image {
+    @apply h-52 w-full object-cover;
+  }
+  
+  .property-card-badge {
+    @apply absolute top-3 right-3 bg-primary-600 text-white text-xs font-semibold px-2 py-1 rounded-sm z-10;
+  }
+  
+  .property-card-price {
+    @apply text-lg font-bold text-primary-600;
+  }
+  
+  .property-card-location {
+    @apply text-sm text-gray-500 truncate;
+  }
+  
+  /* Search Form Styles - Enhanced for StayMoksha look */
+  .search-input {
+    @apply w-full px-4 py-3 border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 shadow-sm;
+  }
+  
+  .search-button {
+    @apply px-6 py-3 bg-primary-600 text-white rounded-md hover:bg-primary-700 transition-colors font-medium flex items-center justify-center;
+  }
+  
+  /* Filter Buttons */
+  .filter-button {
+    @apply px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-200 rounded-full hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors;
+  }
+  
+  .filter-button-active {
+    @apply bg-primary-600 text-white border-primary-600;
+  }
+  
+  /* Hero Section - Enhanced for StayMoksha look */
+  .hero-section {
+    @apply relative bg-cover bg-center h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 text-white;
+  }
+  
+  .hero-overlay {
+    @apply absolute inset-0 bg-black bg-opacity-40;
+  }
+  
+  .hero-content {
+    @apply relative z-10 max-w-7xl mx-auto text-center pt-16;
+  }
+  
+  .search-form {
+    @apply mt-8 bg-white rounded-lg shadow-xl p-6 max-w-5xl mx-auto;
+  }
+  
+  /* Location Card Styles */
+  .location-card {
+    @apply relative rounded-lg overflow-hidden shadow-md cursor-pointer transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg;
+  }
+  
+  .location-card-image {
+    @apply h-64 w-full object-cover;
+  }
+  
+  .location-card-overlay {
+    @apply absolute inset-0 bg-gradient-to-t from-black/70 to-transparent;
+  }
+  
+  .location-card-content {
+    @apply absolute bottom-0 left-0 p-4 text-white;
+  }
+  
+  .location-card-title {
+    @apply text-xl font-bold;
+  }
+
+}

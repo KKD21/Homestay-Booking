@@ -1,0 +1,21 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="1920" height="1080" fill="url(#paint0_linear)" />
+  
+  <!-- Mountain silhouettes -->
+  <path d="M0 540L240 380L480 480L720 360L960 460L1200 380L1440 420L1680 340L1920 420V1080H0V540Z" fill="#1A365D" opacity="0.7" />
+  <path d="M0 640L240 520L480 580L720 500L960 600L1200 520L1440 560L1680 480L1920 560V1080H0V640Z" fill="#2D3748" opacity="0.8" />
+  <path d="M0 740L240 680L480 720L720 660L960 740L1200 680L1440 700L1680 640L1920 700V1080H0V740Z" fill="#1A202C" opacity="0.9" />
+  
+  <!-- Decorative elements -->
+  <circle cx="1800" cy="200" r="60" fill="#F6E05E" opacity="0.8" />
+  <circle cx="1800" cy="200" r="80" fill="#F6E05E" opacity="0.3" />
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="960" y1="0" x2="960" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2B6CB0" />
+      <stop offset="1" stop-color="#1A365D" />
+    </linearGradient>
+  </defs>
+</svg>
